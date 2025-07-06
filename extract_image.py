@@ -44,5 +44,3 @@ for page_index in range(len(pdf_file)):
             with open(image_name, "wb") as image_file:
                 image_file.write(image_bytes)
                 print(f"[+] Image saved as {image_name}")
-
-
